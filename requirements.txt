@@ -1,0 +1,11 @@
+ultralytics==8.1.34
+opencv-python
+streamlit
+streamlit-folium
+folium
+pandas
+numpy<2
+google-earth-engine
+earthengine-api
+requests
+shapely
