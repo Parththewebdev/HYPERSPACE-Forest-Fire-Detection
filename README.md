@@ -6,11 +6,11 @@ An AI-powered system that detects forest fires from video feeds using computer v
 
 This project uses:
 
-A deep learning model (YOLO) to detect fire and smoke from drone or surveillance video.
+- A deep learning model (YOLO) to detect fire and smoke from drone or surveillance video.
 
-Satellite imagery (Sentinel-2 via Google Earth Engine) to calculate vegetation health (NDVI) and fire risk.
+- Satellite imagery (Sentinel-2 via Google Earth Engine) to calculate vegetation health (NDVI) and fire risk.
 
-A dashboard to visualize detections, location, risk levels, and logs.
+- A dashboard to visualize detections, location, risk levels, and logs.
 
 The goal is to enable early detection of forest fires, reduce response time, and minimize environmental and economic damage.
 
