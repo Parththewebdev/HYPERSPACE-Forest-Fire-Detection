@@ -66,9 +66,8 @@ venv\Scripts\activate`   # Windows
 4️⃣ Authenticate Google Earth Engine
 `earthengine authenticate`
 
-▶️ Running the App
+5️⃣ Running the App
 `python -m streamlit run dashboard.py`
-
 
 Then open the browser link shown in the terminal.
 
