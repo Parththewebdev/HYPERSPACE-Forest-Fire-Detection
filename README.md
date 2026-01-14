@@ -53,7 +53,7 @@ Scalable and modular architecture
 ```
 ## ⚙️ Installation
 1️⃣ Clone the repository
-`git clone https://github.com/yourusername/forest-fire-detection.git
+`git clone https://github.com/Parththewebdev/HYPERSPACE-Forest-Fire-Detection.git
 cd forest-fire-detection`
 
 2️⃣ Create and activate a virtual environment
