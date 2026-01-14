@@ -16,19 +16,19 @@ The goal is to enable early detection of forest fires, reduce response time, and
 
 ## 🚀 Features
 
-Fire and smoke detection using YOLO
+- Fire and smoke detection using YOLO
 
-Bounding box visualization on video frames
+- Bounding box visualization on video frames
 
-Multi-video support with navigation
+- Multi-video support with navigation
 
-Satellite-based fire risk classification (Low / Medium / High)
+- Satellite-based fire risk classification (Low / Medium / High)
 
-Interactive map showing fire location
+- Interactive map showing fire location
 
-Detection logs with timestamps
+- Detection logs with timestamps
 
-Scalable and modular architecture
+- Scalable and modular architecture
 
 ## 🧠 Technology Stack
 | Component	| Technology |
@@ -82,15 +82,15 @@ NDVI Value	Risk Level
 < 0.3	High
 🧪 How It Works
 
-Video frames are extracted using OpenCV.
+- Video frames are extracted using OpenCV.
 
-YOLO detects fire and smoke patterns.
+- YOLO detects fire and smoke patterns.
 
-Satellite NDVI is computed for the corresponding location.
+- Satellite NDVI is computed for the corresponding location.
 
-Results are visualized on the dashboard with logs and map.
+- Results are visualized on the dashboard with logs and map.
 
-Alerts and risk information support faster response.
+- Alerts and risk information support faster response.
 
 ## 🌍 Applications
 
@@ -121,6 +121,6 @@ Alerts and risk information support faster response.
 Contributions are welcome!
 Please open an issue or submit a pull request for improvements or bug fixes.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
