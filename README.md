@@ -1,8 +1,8 @@
-🌲 Forest Fire Detection System
+# 🌲 Forest Fire Detection System
 
 An AI-powered system that detects forest fires from video feeds using computer vision and combines it with satellite-based environmental risk analysis for early warning and better disaster response.
 
-🔍 Overview
+## 🔍 Overview
 
 This project uses:
 
@@ -14,7 +14,7 @@ A dashboard to visualize detections, location, risk levels, and logs.
 
 The goal is to enable early detection of forest fires, reduce response time, and minimize environmental and economic damage.
 
-🚀 Features
+## 🚀 Features
 
 Fire and smoke detection using YOLO
 
@@ -30,16 +30,17 @@ Detection logs with timestamps
 
 Scalable and modular architecture
 
-🧠 Technology Stack
-Component	Technology
-Language	Python 3.11
-Computer Vision	OpenCV
-Deep Learning	YOLO (Ultralytics)
-Satellite Data	Google Earth Engine
-Mapping	Folium
-Dashboard	Streamlit
-📂 Project Structure
-.
+## 🧠 Technology Stack
+| Component	| Technology |
+|------|------|
+| Language	| Python 3.11 |
+| Computer Vision	| OpenCV |
+| Deep Learning	| YOLO (Ultralytics) |
+| Satellite | Data	Google Earth Engine |
+| Mapping |	Folium |
+| Dashboard	| Streamlit |
+## 📂 Project Structure
+```.
 ├── dashboard.py
 ├── fire.pt
 ├── satellite_risk.py
@@ -49,29 +50,29 @@ Dashboard	Streamlit
     ├── fire1.mp4
     ├── fire2.mp4
     ├── ...
-
-⚙️ Installation
+```
+## ⚙️ Installation
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/forest-fire-detection.git
-cd forest-fire-detection
+`git clone https://github.com/yourusername/forest-fire-detection.git
+cd forest-fire-detection`
 
 2️⃣ Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate   # Windows
+`python -m venv venv
+venv\Scripts\activate`   # Windows
 
 3️⃣ Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4️⃣ Authenticate Google Earth Engine
-earthengine authenticate
+`earthengine authenticate`
 
 ▶️ Running the App
-python -m streamlit run dashboard.py
+`python -m streamlit run dashboard.py`
 
 
 Then open the browser link shown in the terminal.
 
-📊 Fire Risk Classification
+## 📊 Fire Risk Classification
 
 Satellite-based risk is computed using NDVI:
 
@@ -91,31 +92,31 @@ Results are visualized on the dashboard with logs and map.
 
 Alerts and risk information support faster response.
 
-🌍 Applications
+## 🌍 Applications
 
-Forest monitoring agencies
+- Forest monitoring agencies
 
-Disaster management authorities
+- Disaster management authorities
 
-Wildlife conservation organizations
+- Wildlife conservation organizations
 
-Smart city surveillance systems
+- Smart city surveillance systems
 
-Climate and environmental research
+- Climate and environmental research
 
-📝 Future Improvements
+## 📝 Future Improvements
 
-Severity classification (small/medium/large fire)
+- Severity classification (small/medium/large fire)
 
-Fire spread direction prediction
+- Fire spread direction prediction
 
-Cloud deployment for large-scale monitoring
+- Cloud deployment for large-scale monitoring
 
-Integration with alert systems (SMS/Telegram)
+- Integration with alert systems (SMS/Telegram)
 
-Support for live drone streams
+- Support for live drone streams
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 Please open an issue or submit a pull request for improvements or bug fixes.
